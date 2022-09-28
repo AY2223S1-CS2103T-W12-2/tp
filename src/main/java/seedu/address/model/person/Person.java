@@ -25,6 +25,9 @@ public class Person {
     private final Address address;
     private final Set<Tag> tags = new HashSet<>();
 
+    /**
+     * Alternate person class
+     */
     public Person(Name name, Phone phone, Email email, Address address, Set<Tag> tags) {
         requireAllNonNull(name, phone, email, address, tags);
         this.name = name;
