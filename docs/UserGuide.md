@@ -40,6 +40,28 @@ SectresBook helps **secretaries** to maintain all the information of the members
 
 --------------------------------------------------------------------------------------------------------------------
 
+## Properties
+
+### Person Properties
+- Name
+  - 
+- Phone
+  - 
+- Address
+  - 
+- Email
+  - 
+- Tags
+  - 
+
+### Notes Properties
+- Title
+  - 
+- Content
+  - 
+- Tags
+  - 
+
 ## Features
 
 <div markdown="block" class="alert alert-info">
