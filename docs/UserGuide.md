@@ -268,7 +268,7 @@ Format: `inspect <INDEX> or <NAME>`
 
 Edits an existing club member's loan amount in the SectresBook.
 
-Format: `editLoan INDEX VALUE REASON`
+Format: `editLoan INDEX amt/VALUE reason/REASON`
 
 * Edits the loan value of the existing person at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
@@ -278,9 +278,9 @@ Format: `editLoan INDEX VALUE REASON`
 
 Examples:
 
-* `editLoan 2 30 bought logistics`
-* `editLoan 3 -30 return money from logisitics`
-* `list` followed by `editLoan 1 -20 return money` will edit the 1st person in the SectresBook,
+* `editLoan 2 amt/30 reason/bought logistics`
+* `editLoan 3 amt/-30 reason/return money from logisitics`
+* `list` followed by `editLoan 1 amt/-20 reason/return money` will edit the 1st person in the SectresBook,
 reducing their loan by $20 and saving the `REASON` as `return money`.
 
 ### Deleting a person : `delete`
